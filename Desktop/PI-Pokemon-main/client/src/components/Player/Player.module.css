@@ -1,0 +1,11 @@
+.play{
+    position: relative;
+    margin-right: 500px;
+    
+}
+
+
+.reproductor{
+    width: 250px;
+    position: absolute !important;
+}
