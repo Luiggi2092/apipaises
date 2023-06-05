@@ -1,0 +1,31 @@
+.Card{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    display: grid;
+    position: relative;
+    left: 94vh;
+    top: 10vh;
+    align-items: center;
+    
+}
+
+.img{
+    padding: 0 50px;
+    text-align: center;
+
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 130px;
+    left:68px;
+    width: 200px;
+    height: 30px;
+}
