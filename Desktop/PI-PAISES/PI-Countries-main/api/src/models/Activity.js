@@ -14,6 +14,12 @@ module.exports = (sequelize) => {
             type: DataTypes.STRING,
             allowNull: false,
             unique:true,
+            validate : {
+                isAlpha:{
+                  args: true,
+                  msg: "the name cannot contain numbers"  
+                } 
+            }
 
         },
         difficulty: {

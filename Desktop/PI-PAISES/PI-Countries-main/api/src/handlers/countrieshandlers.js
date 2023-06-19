@@ -11,7 +11,6 @@ const handlerCountries = async(req,res)=>{
 
   const name = req.query.name;
   
-  console.log(name);
 
 
   if(name){

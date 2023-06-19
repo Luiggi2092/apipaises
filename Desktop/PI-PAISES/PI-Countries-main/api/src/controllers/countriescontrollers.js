@@ -6,6 +6,12 @@ const { Country,Activity } = require("../db");
 
 const getAllCountries = async ()=> {
 
+
+     let dataCount = await Country.findAll();
+    
+   
+    if(dataCount.length=== 0){
+  
      let pai = [];
 
 
@@ -41,7 +47,7 @@ const getAllCountries = async ()=> {
      
     })}});
 
-    
+  }
    let dataCountry = await Country.findAll({
     include: {
       model : Activity,
@@ -98,7 +104,7 @@ const getCountryxName = async(name)=>{
        }
    })
 
-  console.log(countriesxname);
+
   return countriesxname;     
 
 }
